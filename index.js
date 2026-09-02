@@ -729,17 +729,159 @@
 // }
 
 
-sum(displayWebpage, 4, 2); 
+// sum(displayWebpage, 4, 2); 
 
-function sum(callback, x, y) {
-    let result = x + y;
-    callback(result);
-}
-//                         6
-function displayConsole(result) {
-    console.log(result);
-}
+// function sum(callback, x, y) {
+//     let result = x + y;
+//     callback(result);
+// }
+// //                         6
+// function displayConsole(result) {
+//     console.log(result);
+// }
 
-function displayWebpage(result) {
-     document.getElementById("myH1").textContent = result;
-}
+// function displayWebpage(result) {
+//      document.getElementById("myH1").textContent = result;
+// }
+
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+
+// numbers.forEach(double);
+// numbers.forEach(square);
+// numbers.forEach(display);
+
+                
+// function double(element, index, array) {
+//    array[index] = element * 2;
+// }
+
+// function square(element, index, array) {
+//     array[index] = Math.pow(element, 2)
+// }
+
+// function display(element) {
+//   console.log(element);
+// }
+
+//                 0        1         2         3
+// let fruits = ["apple", "orange", "banana", "pineapple"];
+
+
+// function upperCase(element, index, array) {
+//    array[index] = element.toUpperCase();
+// }
+
+// function capitilize(element, index, array) {
+//     array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+// }
+
+
+// // fruits.forEach(upperCase);
+// fruits.forEach(capitilize);
+// fruits.forEach(display);
+
+// function display(element) {
+//   console.log(element);
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// console.log(numbers);
+
+// //               [1, 4, 9, 16, 25, 36]
+// const squares = numbers.map(square);
+
+// function square(element) {
+//     return Math.pow(element, 2);
+// }
+
+
+// const students = ["siva", "ganesh", "aslam"];
+
+// const upperResult = students.map(upperCase);
+
+// console.log(upperResult);
+
+
+// function upperCase(students) {
+//     return students.toUpperCase();
+// }
+
+
+// console.log(squares);
+
+
+// const dates = ["2016-1-10", "2025-2-20", "2026-3-30"];
+
+// dates = "2202-4-30";
+// console.log(dates.split("-"));
+
+
+// const formatedDates = dates.map(formatDates);
+
+// console.log(formatedDates);
+
+
+// function formatDates(element) {
+//     const parts = element.split("-");
+//     return `${parts[2]}/${parts[1]}/${parts[0]}`;
+    
+// }
+
+// formatDates();
+
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7];
+
+// let evenNumbers = numbers.filter(isEven);
+
+// console.log(evenNumbers);
+
+// function isEven(element) {
+//     return element % 2 === 0;
+// }
+
+
+// const ages = [10, 16, 17, 18, 20, 70, 60];
+
+// const adults = ages.filter(isAdult)
+
+// console.log(adults);
+
+// function isAdult(element) {
+//     return element >= 18;
+// }
+
+// const words = ["apple", "orange", "banana", "kiwi", "pomegranate", "coconut", "pineapplle"];
+
+// const shortWords = words.filter(getShortWords);
+
+// console.log(shortWords);
+
+// function getShortWords(element) {
+//     return element.length <= 6;
+// }
+
+
+// const prices = [200, 10, 80, 1000, 400];
+
+
+// const total = prices.reduce(sum);
+
+// console.log(`the total ₹${total.toFixed(2)}`);
+
+// //             1690        
+// function sum(previous, element) {
+//     return previous + element;
+// }
+
+
+// const grades = [75, 50, 90, 60, 65, 95];
+
+// const maximum = grades.reduce(getMax);
+
+// console.log(maximum);
+
+// function getMax(accum, element) {
+//     return Math.max(accum, element);
+// }

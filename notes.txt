@@ -382,6 +382,19 @@ create call for to area of cirlce
 create a callback for multiplication 
 create callback for to find squareroot  
 
+forEach() - method used to iterate over the elements of an array and apply specified function (callbacks)
+to each elements
+
+
+array.forEach(callback);
+// elements, index, array are provide
+
+
+map() - accepts a callback and applies that fucntion to each element of an array, then return a new array
+
+filter() - create a new array by filtering out elements
+
+reduce() - reduce the element of an array to single value.
 
 
 
@@ -398,9 +411,10 @@ create callback for to find squareroot
 
 
 
-typescript - oops based language 
 
-Callbacks 
+
+
+
 
 
 
